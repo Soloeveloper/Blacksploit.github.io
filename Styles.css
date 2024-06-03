@@ -1,0 +1,87 @@
+body {
+    background-color: #800080; /* Solid purple background */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Smaller maximum width */
+    padding: 20px;
+    text-align: center; /* Center-align content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* Center the container */
+    margin-top: 20px; /* Adjust the top margin */
+    background-color: rgba(255, 255, 255, 0.1); /* White with slight transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .text-container {
+    flex-grow: 1;
+}
+
+header img {
+    width: 30px; /* Adjust the size as needed */
+    cursor: pointer;
+    opacity: 0.5; /* Set opacity to 50% */
+    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
+}
+
+header img:hover {
+    transform: scale(1.1); /* Slightly bigger size on hover */
+    opacity: 1; /* Full opacity on hover */
+}
+
+main {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px; /* Smooth edges */
+}
+
+#download-btn {
+    background: linear-gradient(to bottom, white, black); /* Adjusted button gradient */
+    color: white;
+}
+
+#contact-btn {
+    background: linear-gradient(to bottom, white, yellow); /* Adjusted button gradient */
+    color: black;
+}
+
+.version-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgba(255, 255, 255, 0.5); /* White with more transparency */
+    font-size: 12px; /* Smaller font size */
+}
