@@ -23,25 +23,28 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 header .text-container {
-    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 header img {
     width: 30px;
     cursor: pointer;
-    opacity: 0.5; 
+    opacity: 0.5;
     transition: transform 0.3s, opacity 0.3s;
 }
 
 header img:hover {
-    transform: scale(1.1); 
-    opacity: 1; 
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 main {
@@ -65,7 +68,7 @@ button {
     border: none;
     cursor: pointer;
     margin-right: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 #download-btn {
