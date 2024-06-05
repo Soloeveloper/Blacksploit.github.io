@@ -1,5 +1,5 @@
 body {
-    background-color: #800080; /* Solid purple background */
+    background-color: #0d0c0c;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,18 +7,18 @@ body {
 }
 
 .container {
-    max-width: 600px; /* Smaller maximum width */
+    max-width: 600px;
     padding: 20px;
-    text-align: center; /* Center-align content */
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto; /* Center the container */
-    margin-top: 20px; /* Adjust the top margin */
-    background-color: rgba(255, 255, 255, 0.1); /* White with slight transparency */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 header {
@@ -33,15 +33,15 @@ header .text-container {
 }
 
 header img {
-    width: 30px; /* Adjust the size as needed */
+    width: 30px;
     cursor: pointer;
-    opacity: 0.5; /* Set opacity to 50% */
-    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
+    opacity: 0.5; 
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 header img:hover {
-    transform: scale(1.1); /* Slightly bigger size on hover */
-    opacity: 1; /* Full opacity on hover */
+    transform: scale(1.1); 
+    opacity: 1; 
 }
 
 main {
@@ -65,16 +65,16 @@ button {
     border: none;
     cursor: pointer;
     margin-right: 10px;
-    border-radius: 10px; /* Smooth edges */
+    border-radius: 10px; 
 }
 
 #download-btn {
-    background: linear-gradient(to bottom, white, black); /* Adjusted button gradient */
+    background: linear-gradient(to bottom, white, black);
     color: white;
 }
 
 #contact-btn {
-    background: linear-gradient(to bottom, white, yellow); /* Adjusted button gradient */
+    background: linear-gradient(to bottom, white, yellow);
     color: black;
 }
 
@@ -82,6 +82,6 @@ button {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    color: rgba(255, 255, 255, 0.5); /* White with more transparency */
-    font-size: 12px; /* Smaller font size */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
 }
